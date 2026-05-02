@@ -27,6 +27,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
 
 > **Note:** For the purpose of easy evaluation/setup, the `server/.env` file containing the MongoDB Atlas connection key has been intentionally included in this repository. 
 > You **do not** need to create your own database or configure environment variables. The application will connect to the cloud database automatically!
+> If Mongo Atlas doest work use local url : mongodb://localhost:27017/youtube_clone
 
 ### Installation & Running the Project
 
