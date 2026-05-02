@@ -46,6 +46,8 @@ function App() {
         />
         {/* Authentication route (Login/Signup) */}
         <Route path="/auth" element={<AuthPage />} />
+        {/* 404 Catch-all route */}
+        <Route path="*" element={<div style={{ textAlign: "center", padding: "50px" }}><h2>404 - Page Not Found</h2></div>} />
       </Routes>
     </div>
   );
