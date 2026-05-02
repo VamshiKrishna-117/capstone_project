@@ -20,6 +20,7 @@ A full-stack web application that replicates the core features of YouTube. Built
 Follow these instructions to set up and run the project locally on your machine.
 
 step 1 : Clone the repo
+
 git clone https://github.com/VamshiKrishna-117/capstone_project.git
 
 
