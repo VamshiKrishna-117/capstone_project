@@ -68,4 +68,6 @@ The React development server will start. Open your browser and navigate to the l
 - `client/`: Contains all frontend React code, components, pages, and CSS styles.
 - `server/`: Contains all backend Express routes, controllers, MongoDB models, and the database seeding script.
 
+## Contributing
 
+While this is an educational project, feel free to fork the repository, explore the code, and add your own features!
