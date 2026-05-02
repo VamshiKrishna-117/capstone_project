@@ -1,0 +1,28 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 40px 16px;
+  padding: 24px;
+}
+
+@media (min-width: 1024px) { .video-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1440px) { .video-grid { grid-template-columns: repeat(4, 1fr); } }
+
+.loading-message, .error-message, .no-results {
+  padding: 40px;
+  text-align: center;
+  color: #606060;
+  font-size: 1.1rem;
+}
+
+.error-message { color: #cc0000; }
+
+@media (max-width: 640px) {
+  .video-grid { grid-template-columns: 1fr; padding: 16px; gap: 24px 0; }
+}
